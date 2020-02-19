@@ -1,0 +1,1 @@
+print([p for p in range(50,150) if 0 not in [p%d for d in range (2,p)]])
